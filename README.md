@@ -10,8 +10,8 @@ Adaptation of work done at: https://douglasduhaime.com/posts/identifying-similar
 
 ### Acknowledgments
 
-European Regional Development Fund
-Leverage From the EU 2014-2020
+* European Regional Development Fund
+* Leverage From the EU 2014-2020
 
 
 
