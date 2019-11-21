@@ -1,6 +1,7 @@
 from __future__ import absolute_import, division, print_function
 
 #import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from six.moves import urllib
 import numpy as np
 from collections import defaultdict
@@ -12,7 +13,6 @@ import sys
 import re
 import os.path
 
-import tensorflow.compat.v1 as tf
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
