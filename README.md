@@ -20,9 +20,9 @@ Utilizes data directory as source of illustrations, just give one as sample
 and see if similar images are found. Fine tune the similarity comparison score
 upper or higher within code to see which fits best.
 
-For installation-free experiment in a browser, please use e.g. Google Colab for running the short Jupyter Notebook
+For installation-free experiment in a browser, please use e.g. Google Colab for running the short Jupyter Notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/TuulaP/natlibfi_imgsimilarity/blob/master/natlibfi_imgsimilarity.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TuulaP/natlibfi_imgsimilarity/blob/master/natlibfi_imgsimilarity.ipynb)
 
 ```
 python nlf_similarity.py data/search-result-preview_019.jpg
@@ -39,3 +39,16 @@ For targetimg: data/search-result-preview_019.jpg, found 3 neighbors
 Neighbours are [{'filename': 'search-result-preview_020', 'similarity': 1.0}, {'filename': 'search-result-preview_015', 'similarity': 0.893}, {'filename': 'search-result-preview_003', 'similarity': 0.8817}]
 
 ```
+
+
+### Running notebook locally
+
+If you have jupyter installed, you can start it via 
+
+```
+jupyter notebook
+```
+
+and then select the notebook from the list of files.
+
+
