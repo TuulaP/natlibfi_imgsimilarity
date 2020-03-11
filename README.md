@@ -24,6 +24,9 @@ For installation-free experiment in a browser, please use e.g. Google Colab for 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TuulaP/natlibfi_imgsimilarity/blob/master/natlibfi_imgsimilarity.ipynb)
 
+
+#### Running locally
+
 ```
 python nlf_similarity.py data/search-result-preview_019.jpg
 ```
