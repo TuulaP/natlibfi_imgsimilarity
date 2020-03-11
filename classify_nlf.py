@@ -256,7 +256,7 @@ def run_inference_on_images(image_list, output_dir):
                 # proc = psutil.Process()
                 # print("proc: ", proc)
                 # open_files = proc.open_files()
-                # print("Aukinaiset filet: ", openfiles)
+                # print("Open files: ", openfiles)
 
                 # for open_file in open_files:
                 #     file_handler = getattr(open_file, "fd")

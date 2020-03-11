@@ -20,6 +20,9 @@ Utilizes data directory as source of illustrations, just give one as sample
 and see if similar images are found. Fine tune the similarity comparison score
 upper or higher within code to see which fits best.
 
+For installation-free experiment in a browser, please use e.g. Google Colab for running the short Jupyter Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/TuulaP/natlibfi_imgsimilarity/blob/master/natlibfi_imgsimilarity.ipynb)
 
 ```
 python nlf_similarity.py data/search-result-preview_019.jpg

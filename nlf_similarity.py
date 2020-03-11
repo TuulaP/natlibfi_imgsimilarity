@@ -92,9 +92,9 @@ def findsimilars(miimage, file_index_to_file_name, file_index_to_file_vector, t)
 
     (t, file_index_to_file_name, file_index_to_file_vector) = additemtoindex(
         NPZDIR + npzfile, t, file_index_to_file_name, file_index_to_file_vector)
- #
-    # etsittava _fk03927_1909-03_3_pg115_498017_pic01 , [0.18322894 0.62656009 0.30706945 ... 0.02660679 0.00194689 0.1605511 ]
-    # Naapuri _fk03927_1909-03_3_pg115_498017_pic01 , [0.18322894 0.62656009 0.30706945 ... 0.02660679 0.00194689 0.1605511 ]
+
+    # search _fk03927_1909-03_3_pg115_498017_pic01 , [0.18322894 0.62656009 0.30706945 ... 0.02660679 0.00194689 0.1605511 ]
+    # neighbours _fk03927_1909-03_3_pg115_498017_pic01 , [0.18322894 0.62656009 0.30706945 ... 0.02660679 0.00194689 0.1605511 ]
 
     named_nearest_neighbors = []
 
