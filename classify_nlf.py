@@ -14,7 +14,16 @@ import re
 import os.path
 
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+####Delete all flags before declare#####
+# https://stackoverflow.com/a/51211037/364931
+def del_all_flags(FLAGS):
+    flags_dict = FLAGS._flags()
+    keys_list = [keys for keys in flags_dict]
+    for keys in keys_list:
+        FLAGS.__delattr__(keys)
+
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 
 """
 
@@ -62,7 +71,6 @@ to use this script to perform image recognition.
 
 https://tensorflow.org/tutorials/image_recognition/
 """
-
 
 FLAGS = tf.app.flags.FLAGS
 
@@ -162,7 +170,7 @@ def create_graph():
     # Creates graph from saved graph_def.pb.
 
     # because of https://github.com/tensorflow/tensorflow/issues/17702#issuecomment-387335646
-    tf.app.flags.DEFINE_string('f', '', 'kernel')
+    #tf.app.flags.DEFINE_string('f', '', 'kernel')
 
     with tf.gfile.GFile(os.path.join(
             FLAGS.model_dir, 'classify_image_graph_def.pb'), 'rb') as f:
@@ -314,4 +322,7 @@ def main(_):
 
 
 if __name__ == '__main__':
+
+    del_all_flags(tf.flags.FLAGS)
+
     tf.app.run()

@@ -161,8 +161,8 @@ if __name__ == '__main__':
     initializepicvectors()
 
     # the initial setup
-    #exampleset = glob.glob('data/*.jpg')
-    exampleset = []
+    exampleset = glob.glob('data/*.jpg')
+    #exampleset = []
     exampleset.append(targetimg)
 
     for targetimg in exampleset:  # ('hlo.jpg', 'orna2.jpg'):
@@ -171,7 +171,8 @@ if __name__ == '__main__':
 
         (naapur, t, file_index_to_file_name, file_index_to_file_vector) = findsimilars(targetimg, file_index_to_file_name,
                                                                                        file_index_to_file_vector, t)
-        print("For targetimg: {0}, found {1} neighbors".format(targetimg, len(naapur)))
+        print("For targetimg: {0}, found {1} neighbors".format(
+            targetimg, len(naapur)))
         print("Neighbours are", naapur)
 
     print("All done.")
