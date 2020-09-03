@@ -6,12 +6,29 @@ Scripts to check whether target image is similar to the given set of target imag
 
 Adaptation of work done at: https://douglasduhaime.com/posts/identifying-similar-images-with-tensorflow.html
 
+### Illustration similarity comparison with digitized newspapers
 
+Scripts to check whether target image is similar to the given set of target images. Developed in the context of digitized newspaper pages, where the pictures are black-and-white or grayscale. 
+
+Adaptation of work done at: https://douglasduhaime.com/posts/identifying-similar-images-with-tensorflow.html 
+
+
+
+#### Setup 
+
+E.g. Anaconda installation is useful to include all needed python modules.
 
 ### Acknowledgments
 
+<table><tr><td>
+<img src="https://digi.kansalliskirjasto.fi/images/sosiaali_en.png" alt="European Regional Development Fund" height="110">
+</td><td>
+<img src="https://digi.kansalliskirjasto.fi/images/en_EU_rgb.png" alt="Leverage from the EU 2014-2020" height="110"></td>
+</tr></table>
+
 * European Regional Development Fund
 * Leverage From the EU 2014-2020
+
 
 
 ### How to run
